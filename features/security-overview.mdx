@@ -1,0 +1,69 @@
+---
+title: "Security & Privacy"
+description: "How Kairos protects your data and keeps your information safe."
+---
+
+## Your data, your control
+
+We know you're trusting Kairos with sensitive information — emails, brand deals, contracts, financial details. We take that responsibility seriously.
+
+## How we protect your data
+
+### Isolated environments
+
+Every user gets a completely private sandbox environment. Your data, credentials, and AI manager state are isolated from every other user. There's no shared storage or cross-user access.
+
+### Encryption
+
+All credentials (Gmail tokens, Notion tokens, bot tokens) are encrypted with **AES-256-GCM** — the same encryption standard used by banks and financial institutions. Credentials are encrypted at rest and decrypted only when needed for authorized operations.
+
+### Email privacy
+
+When a new email arrives, Gmail sends Kairos a notification with only an ID number — not the email itself. Kairos forwards this ID to your private environment, where your AI manager reads the email directly from Gmail. Our server only stores a short ID for each notification to avoid processing it twice. Email subjects, body text, attachments, and sender information never touch our database.
+
+### Telegram security
+
+Your Telegram bot is created and owned by you through BotFather. Kairos verifies your identity through the bot's owner ID for every action — so nobody else can interact with your AI manager, even in group chats.
+
+## What Kairos can and cannot do
+
+| | Details |
+|---|---|
+| **Can read** | Emails (Gmail), calendar events, Notion pages you've granted access to |
+| **Can create** | Calendar events, Notion pages, email drafts |
+| **Can send** | Emails — only after your explicit confirmation |
+| **Cannot access** | Google Drive, Google Photos, or any service you haven't connected |
+| **Cannot delete** | Calendar events are never deleted without your confirmation |
+| **Cannot share** | Your data is never shared with other users, brands, or third parties |
+
+## You're always in control
+
+- **Disconnect anytime** — remove Google, Notion, or any connection from your dashboard whenever you want
+- **Delete your bot** — deleting your Telegram bot removes your sandbox and all associated data. Our servers don't store your personal sensitive data.
+- **Confirmation required** — no email is sent, no event is created without your approval
+- **Transparent actions** — Kairos always tells you what it's doing and why
+
+## Permissions we request
+
+### Google
+
+| Permission | Why |
+|---|---|
+| Read emails (gmail.readonly) | Classify and notify you about brand deals and important emails |
+| Send emails (gmail.send) | Send replies you've approved |
+| Calendar events (calendar.events) | Create and manage your schedule |
+| Basic identity (openid, email) | Identify your account |
+
+No access to Drive, Photos, Contacts, or other Google services.
+
+### Notion
+
+Kairos requests access only to the pages and databases you explicitly share during the connection process.
+
+### Telegram
+
+Your bot token is used solely to communicate with you through your personal bot. It's encrypted and stored in your isolated environment.
+
+<Card title="Full security details" icon="shield-halved" href="https://kairos.ac/security">
+  Read our complete security policy at kairos.ac/security.
+</Card>

@@ -1,68 +1,107 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Kairos",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#C96A50",
+    "light": "#C96A50",
+    "dark": "#C96A50"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Introduction",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "introduction/welcome",
+              "introduction/quick-start",
+              "introduction/video-tutorials"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Reference",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "introduction/faq",
+              "introduction/glossary",
+              "introduction/support"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Features",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Multiple Ways to Interact",
             "pages": [
-              "api-reference/introduction"
+              "features/email-monitoring",
+              "features/screenshots-forwarding"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Brand Deals",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "features/brand-deal-overview",
+              "features/deal-evaluation",
+              "features/negotiation-support",
+              "features/contract-review",
+              "features/production-delivery",
+              "features/payment-tracking"
+            ]
+          },
+          {
+            "group": "Email Intelligence",
+            "pages": [
+              "features/email-drafting-sending"
+            ]
+          },
+          {
+            "group": "Schedule Management",
+            "pages": [
+              "features/calendar-events",
+              "features/conflict-detection",
+              "features/scheduled-tasks"
+            ]
+          },
+          {
+            "group": "Creator Profile",
+            "pages": [
+              "features/profile-setup",
+              "features/profile-refresh"
+            ]
+          },
+          {
+            "group": "Personalization",
+            "pages": [
+              "features/memory-system",
+              "features/custom-rules"
+            ]
+          },
+          {
+            "group": "Research & Intelligence",
+            "pages": [
+              "features/brand-research",
+              "features/web-search"
+            ]
+          },
+          {
+            "group": "Security & Privacy",
+            "pages": [
+              "features/security-overview"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Updates",
+            "pages": [
+              "changelog"
             ]
           }
         ]
@@ -71,14 +110,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Website",
+          "href": "https://kairos.ac",
+          "icon": "globe"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Security",
+          "href": "https://kairos.ac/security",
+          "icon": "shield-halved"
         }
       ]
     }
@@ -91,32 +130,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@kairos.ac"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Get Started",
+      "href": "https://kairos.ac"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "youtube": "https://www.youtube.com/@KairosAI-f2q",
+      "discord": "https://discord.com/invite/UHApJGkWDM",
+      "telegram": "https://t.me/+lzaJzXKFDuxkNWJk"
     }
   }
 }
