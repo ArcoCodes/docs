@@ -124,6 +124,25 @@
         ]
       },
       {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Platform",
+            "pages": [
+              "integrations/telegram"
+            ]
+          },
+          {
+            "group": "Connected Services (Optional)",
+            "pages": [
+              "integrations/gmail",
+              "integrations/google-calendar",
+              "integrations/notion"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Changelog",
         "groups": [
           {

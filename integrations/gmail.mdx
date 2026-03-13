@@ -1,6 +1,51 @@
 ---
-title: "Coming Soon"
-description: "This page is under construction."
+title: "Gmail"
+description: "Connect Gmail to let Kairos monitor your inbox and send emails on your behalf."
 ---
 
-<Info>This page is coming soon.</Info>
+## Overview
+
+Connecting Gmail lets Kairos receive notifications when new emails arrive, read them to identify brand deals and schedule items, and send replies you've approved. It's optional, and many features work without it.
+
+## Connecting
+
+1. Go to your Kairos dashboard
+2. Click **Connect Google**
+3. Sign in with your Google account
+4. Review the permissions and click **Continue**
+
+## Permissions
+
+| Permission | What it does |
+|---|---|
+| **Read emails** (gmail.readonly) | Reads new emails to classify and notify you about brand deals, schedule items, and important messages |
+| **Send emails** (gmail.send) | Sends replies you've approved. No email is ever sent without your confirmation |
+| **Basic identity** (openid, email) | Identifies your account. No access to Drive, Photos, or other Google services |
+
+<Info>
+  Gmail and Google Calendar are connected through the same Google sign-in. You don't need to authorize twice.
+</Info>
+
+## How it works
+
+When a new email arrives, Gmail sends a notification to Kairos with just an ID number (not the email content). Your AI manager then reads the email directly from Gmail inside your private environment. Our servers never store email content.
+
+<img src="/images/email-process-progress.png" alt="Email processing flow: Gmail sends notification to Kairos server, which forwards the email ID to your private environment where the AI reads the email directly from Gmail." />
+
+For more on what Kairos does with your emails, see [Email Monitoring](/features/email-monitoring) and [Email Drafting & Sending](/features/email-drafting-sending).
+
+## Disconnecting and reconnecting
+
+You can disconnect Gmail from your Kairos dashboard at any time. Once disconnected, Kairos stops receiving email notifications and can no longer read or send emails.
+
+To reconnect, just click **Connect Google** again and go through the authorization flow.
+
+## Without Gmail
+
+If you prefer not to connect Gmail, you can still:
+
+- Forward emails to your bot as screenshots or text
+- Describe brand deals directly in conversation
+- Create calendar events by telling your bot what to schedule
+
+See [Screenshots, Messages & Forwarding](/features/screenshots-forwarding) for details.
