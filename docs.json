@@ -96,6 +96,34 @@
         ]
       },
       {
+        "tab": "Use Cases",
+        "groups": [
+          {
+            "group": "Brand Deals",
+            "pages": [
+              "use-cases/email-to-deal",
+              "use-cases/dm-deals-without-gmail",
+              "use-cases/getting-paid-on-time"
+            ]
+          },
+          {
+            "group": "Smart Scheduling",
+            "pages": [
+              "use-cases/shoot-day-planning",
+              "use-cases/morning-briefing"
+            ]
+          },
+          {
+            "group": "Everyday Productivity",
+            "pages": [
+              "use-cases/quick-email-replies",
+              "use-cases/ask-anything",
+              "use-cases/teaching-your-preferences"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Changelog",
         "groups": [
           {
