@@ -143,6 +143,18 @@
         ]
       },
       {
+        "tab": "Tips & Tricks",
+        "groups": [
+          {
+            "group": "Tips & Tricks",
+            "pages": [
+              "tips-tricks/give-it-a-soul",
+              "tips-tricks/notification-preferences"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Changelog",
         "groups": [
           {
@@ -194,7 +206,7 @@
   },
   "footer": {
     "socials": {
-      "youtube": "https://www.youtube.com/@KairosAIagent",
+      "youtube": "https://www.youtube.com/@KairosAIAgent",
       "discord": "https://discord.com/invite/UHApJGkWDM",
       "telegram": "https://t.me/nikiatkairos"
     }
