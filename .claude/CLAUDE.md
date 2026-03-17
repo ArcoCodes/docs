@@ -4,7 +4,7 @@
 
 Docs are written based on the source code at https://github.com/ArcoCodes/kairos
 
-**Last synced commit:** `80d93bb` — `chore: bump openclaw to v2026.3.8 (#41)`
+**Last synced commit:** `fbb17f3` — `fix: add --body-stdin to send_email.py and --message-ids to list_emails.py (#45)`
 
 ### How to update docs
 
