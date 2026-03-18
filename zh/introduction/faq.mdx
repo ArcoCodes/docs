@@ -1,0 +1,96 @@
+---
+title: "常见问题"
+description: "关于 Kairos 的常见问题解答。"
+---
+
+## 入门
+
+<AccordionGroup>
+  <Accordion title="Kairos 是什么？">
+    Kairos 是专为内容创作者打造的 AI 经纪人。它帮你处理品牌合作、邮件往来、日程安排等商务事务，让你专注于创作本身。你通过一个属于自己的 Telegram 机器人与它交互。
+  </Accordion>
+
+  <Accordion title="Kairos 免费吗？">
+    Kairos 目前通过候补名单进行早期访问。具体定价将在正式开放前公布。
+  </Accordion>
+
+  <Accordion title="我必须连接所有服务（Gmail、Calendar、Notion）才能使用 Kairos 吗？">
+    不需要。每项连接都是可选的。你可以只用 Telegram 机器人开始，之后再按需添加服务。很多创作者只用一两项集成，效果一样很好。
+  </Accordion>
+
+  <Accordion title="不连接 Gmail 会怎样？">
+    大多数功能仍然可以正常使用。你可以把邮件截图或文字转发给机器人、直接描述品牌合作内容、告诉机器人你要安排的事情来创建日历事件。连接 Gmail 只是在此基础上额外增加了自动邮件监控功能。
+  </Accordion>
+</AccordionGroup>
+
+## Telegram 机器人
+
+<AccordionGroup>
+  <Accordion title="Kairos 为什么用 Telegram，而不是自己开发一个 App？">
+    Telegram 响应快、稳定性强，在各个平台都能使用。它支持内联按钮、文件分享、消息转发等丰富的交互方式。基于 Telegram 构建，你无需再下载一个新 App，就能获得流畅的使用体验。
+  </Accordion>
+
+  <Accordion title="我的 Telegram 机器人安全吗？别人能访问它吗？">
+    只有机器人的所有者（你）才能与你的 AI 经纪人交互。Kairos 在每次操作时都会通过你的 Telegram 用户 ID 验证身份。即使你的机器人被加入群聊，也只有你能使用它。
+  </Accordion>
+
+  <Accordion title="删除机器人会怎样？">
+    如需彻底删除数据，请在 Kairos 控制台删除机器人，这将清除你的沙盒环境和所有相关数据。如果你通过 BotFather 撤销 token 并在之后创建新 token，那将是一个全新的环境，不含任何历史数据。
+  </Accordion>
+</AccordionGroup>
+
+## 品牌合作
+
+<AccordionGroup>
+  <Accordion title="通过私信来的合作邀约，Kairos 也能处理吗？">
+    可以。截图私信、转发消息，或者直接用自己的话描述合作内容都行。Kairos 对这几种输入方式的处理方式完全一样，可以从任意输入开始运行完整的评估流程。
+  </Accordion>
+
+  <Accordion title="Kairos 会不经我同意就发邮件吗？">
+    绝对不会。每封邮件都会先起草并展示给你确认，你审阅后——如有需要可以修改——明确批准才会发送。
+  </Accordion>
+
+  <Accordion title="Kairos 是怎么给品牌合作定价的？">
+    Kairos 会综合考虑你的创作者档案、平台行情参考、品牌方的预算，以及版权用途、独家授权等合作特定因素，给出一个建议区间，而不是一个固定数字。随着时间推移，它也会从你过去的定价决策中持续学习。
+  </Accordion>
+</AccordionGroup>
+
+## 隐私与数据
+
+<AccordionGroup>
+  <Accordion title="Kairos 会存储我的邮件吗？">
+    不会。当 Gmail 通知 Kairos 有新邮件时，只会发送一个 ID 编号。你的 AI 经纪人在你的私有环境内直接从 Gmail 读取邮件内容。邮件主题、正文、附件、发件人信息从不经过我们的数据库。
+  </Accordion>
+
+  <Accordion title="谁能看到我的数据？">
+    只有你。每位用户都有完全隔离的沙盒环境。你的数据、凭证和 AI 经纪人状态绝不会与其他用户、品牌方或第三方共享。
+  </Accordion>
+
+  <Accordion title="如何删除我的账户和数据？">
+    在 Kairos 控制台删除你的机器人，这将清除你的沙盒环境和所有相关数据。我们的服务器不会在运行沙盒所必需的范围之外存储你的个人敏感数据。
+  </Accordion>
+
+  <Accordion title="我的数据会被用于训练 AI 模型吗？">
+    不会。Kairos 不会将你的数据用于训练任何 AI 模型。你的数据保存在你的私有沙盒中，仅用于驱动你自己的 AI 经纪人。
+  </Accordion>
+
+  <Accordion title="Kairos 使用哪个 AI 模型？">
+    Kairos 目前使用 Moonshot AI 的 Kimi 2.5 作为主要模型。你可以在 [Kimi 开放平台服务条款](https://platform.moonshot.ai/docs/agreement/modeluse) 中查看其数据处理方式。我们会持续评估模型，并可能更新以提供更好的体验。
+  </Accordion>
+</AccordionGroup>
+
+## 使用 Kairos
+
+<AccordionGroup>
+  <Accordion title="Kairos 支持哪些语言？">
+    Kairos 支持任何语言的理解和回复。邮件分类、品牌调研和对话功能，不论你或品牌方使用什么语言，都能正常工作。
+  </Accordion>
+
+  <Accordion title="Kairos 除了处理品牌合作，还能做其他事吗？">
+    当然可以。你可以用它管理日程、起草任意邮件、搜索网络、设置提醒、整理 Notion 工作区等等。品牌合作是核心使用场景，但 Kairos 本质上是一个通用的 AI 经纪人，服务你创作事业的方方面面。
+  </Accordion>
+
+  <Accordion title="Kairos 会越来越懂我吗？">
+    会的。Kairos 会从你的使用方式中学习你的偏好——包括你的品牌选择、沟通风格、定价思路和通知偏好。你也可以随时设置明确的规则。用得越多，你需要重复解释的事情就越少。
+  </Accordion>
+</AccordionGroup>

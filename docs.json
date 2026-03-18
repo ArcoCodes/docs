@@ -20,158 +20,483 @@
     "indexHiddenPages": false
   },
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Introduction",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "introduction/welcome",
-              "introduction/quick-start",
-              "introduction/video-tutorials"
+            "tab": "Introduction",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "introduction/welcome",
+                  "introduction/quick-start",
+                  "introduction/video-tutorials"
+                ]
+              },
+              {
+                "group": "Reference",
+                "pages": [
+                  "introduction/faq",
+                  "introduction/glossary",
+                  "introduction/support"
+                ]
+              }
             ]
           },
           {
-            "group": "Reference",
-            "pages": [
-              "introduction/faq",
-              "introduction/glossary",
-              "introduction/support"
+            "tab": "Features",
+            "groups": [
+              {
+                "group": "Multiple Ways to Interact",
+                "pages": [
+                  "features/email-monitoring",
+                  "features/screenshots-forwarding"
+                ]
+              },
+              {
+                "group": "Brand Deals",
+                "pages": [
+                  "features/brand-deal-overview",
+                  "features/deal-evaluation",
+                  "features/negotiation-support",
+                  "features/contract-review",
+                  "features/production-delivery",
+                  "features/payment-tracking"
+                ]
+              },
+              {
+                "group": "Email Intelligence",
+                "pages": [
+                  "features/email-drafting-sending"
+                ]
+              },
+              {
+                "group": "Schedule Management",
+                "pages": [
+                  "features/calendar-events",
+                  "features/conflict-detection",
+                  "features/scheduled-tasks"
+                ]
+              },
+              {
+                "group": "Creator Profile",
+                "pages": [
+                  "features/profile-setup",
+                  "features/profile-refresh"
+                ]
+              },
+              {
+                "group": "Personalization",
+                "pages": [
+                  "features/memory-system",
+                  "features/custom-rules"
+                ]
+              },
+              {
+                "group": "Research & Intelligence",
+                "pages": [
+                  "features/brand-research",
+                  "features/web-search"
+                ]
+              },
+              {
+                "group": "Security & Privacy",
+                "pages": [
+                  "features/security-overview"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Use Cases",
+            "groups": [
+              {
+                "group": "Brand Deals",
+                "pages": [
+                  "use-cases/email-to-deal",
+                  "use-cases/dm-deals-without-gmail",
+                  "use-cases/getting-paid-on-time"
+                ]
+              },
+              {
+                "group": "Smart Scheduling",
+                "pages": [
+                  "use-cases/shoot-day-planning",
+                  "use-cases/morning-briefing"
+                ]
+              },
+              {
+                "group": "Everyday Productivity",
+                "pages": [
+                  "use-cases/quick-email-replies",
+                  "use-cases/ask-anything",
+                  "use-cases/teaching-your-preferences"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Integrations",
+            "groups": [
+              {
+                "group": "Platform",
+                "pages": [
+                  "integrations/telegram"
+                ]
+              },
+              {
+                "group": "Connected Services (Optional)",
+                "pages": [
+                  "integrations/gmail",
+                  "integrations/google-calendar",
+                  "integrations/notion"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Tips & Tricks",
+            "groups": [
+              {
+                "group": "Tips & Tricks",
+                "pages": [
+                  "tips-tricks/give-it-a-soul",
+                  "tips-tricks/notification-preferences"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Changelog",
+            "groups": [
+              {
+                "group": "Updates",
+                "pages": [
+                  "changelog"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Features",
-        "groups": [
+        "language": "zh",
+        "tabs": [
           {
-            "group": "Multiple Ways to Interact",
-            "pages": [
-              "features/email-monitoring",
-              "features/screenshots-forwarding"
+            "tab": "简介",
+            "groups": [
+              {
+                "group": "快速开始",
+                "pages": [
+                  "zh/introduction/welcome",
+                  "zh/introduction/quick-start",
+                  "zh/introduction/video-tutorials"
+                ]
+              },
+              {
+                "group": "参考",
+                "pages": [
+                  "zh/introduction/faq",
+                  "zh/introduction/glossary",
+                  "zh/introduction/support"
+                ]
+              }
             ]
           },
           {
-            "group": "Brand Deals",
-            "pages": [
-              "features/brand-deal-overview",
-              "features/deal-evaluation",
-              "features/negotiation-support",
-              "features/contract-review",
-              "features/production-delivery",
-              "features/payment-tracking"
+            "tab": "功能",
+            "groups": [
+              {
+                "group": "多种交互方式",
+                "pages": [
+                  "zh/features/email-monitoring",
+                  "zh/features/screenshots-forwarding"
+                ]
+              },
+              {
+                "group": "品牌合作",
+                "pages": [
+                  "zh/features/brand-deal-overview",
+                  "zh/features/deal-evaluation",
+                  "zh/features/negotiation-support",
+                  "zh/features/contract-review",
+                  "zh/features/production-delivery",
+                  "zh/features/payment-tracking"
+                ]
+              },
+              {
+                "group": "邮件智能",
+                "pages": [
+                  "zh/features/email-drafting-sending"
+                ]
+              },
+              {
+                "group": "日程管理",
+                "pages": [
+                  "zh/features/calendar-events",
+                  "zh/features/conflict-detection",
+                  "zh/features/scheduled-tasks"
+                ]
+              },
+              {
+                "group": "创作者档案",
+                "pages": [
+                  "zh/features/profile-setup",
+                  "zh/features/profile-refresh"
+                ]
+              },
+              {
+                "group": "个性化",
+                "pages": [
+                  "zh/features/memory-system",
+                  "zh/features/custom-rules"
+                ]
+              },
+              {
+                "group": "调研与情报",
+                "pages": [
+                  "zh/features/brand-research",
+                  "zh/features/web-search"
+                ]
+              },
+              {
+                "group": "安全与隐私",
+                "pages": [
+                  "zh/features/security-overview"
+                ]
+              }
             ]
           },
           {
-            "group": "Email Intelligence",
-            "pages": [
-              "features/email-drafting-sending"
+            "tab": "使用场景",
+            "groups": [
+              {
+                "group": "品牌合作",
+                "pages": [
+                  "zh/use-cases/email-to-deal",
+                  "zh/use-cases/dm-deals-without-gmail",
+                  "zh/use-cases/getting-paid-on-time"
+                ]
+              },
+              {
+                "group": "智能排期",
+                "pages": [
+                  "zh/use-cases/shoot-day-planning",
+                  "zh/use-cases/morning-briefing"
+                ]
+              },
+              {
+                "group": "日常效率",
+                "pages": [
+                  "zh/use-cases/quick-email-replies",
+                  "zh/use-cases/ask-anything",
+                  "zh/use-cases/teaching-your-preferences"
+                ]
+              }
             ]
           },
           {
-            "group": "Schedule Management",
-            "pages": [
-              "features/calendar-events",
-              "features/conflict-detection",
-              "features/scheduled-tasks"
+            "tab": "集成",
+            "groups": [
+              {
+                "group": "平台",
+                "pages": [
+                  "zh/integrations/telegram"
+                ]
+              },
+              {
+                "group": "可选服务",
+                "pages": [
+                  "zh/integrations/gmail",
+                  "zh/integrations/google-calendar",
+                  "zh/integrations/notion"
+                ]
+              }
             ]
           },
           {
-            "group": "Creator Profile",
-            "pages": [
-              "features/profile-setup",
-              "features/profile-refresh"
+            "tab": "技巧与窍门",
+            "groups": [
+              {
+                "group": "技巧与窍门",
+                "pages": [
+                  "zh/tips-tricks/give-it-a-soul",
+                  "zh/tips-tricks/notification-preferences"
+                ]
+              }
             ]
           },
           {
-            "group": "Personalization",
-            "pages": [
-              "features/memory-system",
-              "features/custom-rules"
-            ]
-          },
-          {
-            "group": "Research & Intelligence",
-            "pages": [
-              "features/brand-research",
-              "features/web-search"
-            ]
-          },
-          {
-            "group": "Security & Privacy",
-            "pages": [
-              "features/security-overview"
+            "tab": "更新日志",
+            "groups": [
+              {
+                "group": "更新",
+                "pages": [
+                  "zh/changelog"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Use Cases",
-        "groups": [
+        "language": "ja",
+        "tabs": [
           {
-            "group": "Brand Deals",
-            "pages": [
-              "use-cases/email-to-deal",
-              "use-cases/dm-deals-without-gmail",
-              "use-cases/getting-paid-on-time"
+            "tab": "はじめに",
+            "groups": [
+              {
+                "group": "スタートガイド",
+                "pages": [
+                  "ja/introduction/welcome",
+                  "ja/introduction/quick-start",
+                  "ja/introduction/video-tutorials"
+                ]
+              },
+              {
+                "group": "リファレンス",
+                "pages": [
+                  "ja/introduction/faq",
+                  "ja/introduction/glossary",
+                  "ja/introduction/support"
+                ]
+              }
             ]
           },
           {
-            "group": "Smart Scheduling",
-            "pages": [
-              "use-cases/shoot-day-planning",
-              "use-cases/morning-briefing"
+            "tab": "機能",
+            "groups": [
+              {
+                "group": "複数の操作方法",
+                "pages": [
+                  "ja/features/email-monitoring",
+                  "ja/features/screenshots-forwarding"
+                ]
+              },
+              {
+                "group": "ブランド案件",
+                "pages": [
+                  "ja/features/brand-deal-overview",
+                  "ja/features/deal-evaluation",
+                  "ja/features/negotiation-support",
+                  "ja/features/contract-review",
+                  "ja/features/production-delivery",
+                  "ja/features/payment-tracking"
+                ]
+              },
+              {
+                "group": "メールインテリジェンス",
+                "pages": [
+                  "ja/features/email-drafting-sending"
+                ]
+              },
+              {
+                "group": "スケジュール管理",
+                "pages": [
+                  "ja/features/calendar-events",
+                  "ja/features/conflict-detection",
+                  "ja/features/scheduled-tasks"
+                ]
+              },
+              {
+                "group": "クリエイタープロフィール",
+                "pages": [
+                  "ja/features/profile-setup",
+                  "ja/features/profile-refresh"
+                ]
+              },
+              {
+                "group": "パーソナライズ",
+                "pages": [
+                  "ja/features/memory-system",
+                  "ja/features/custom-rules"
+                ]
+              },
+              {
+                "group": "リサーチ & インテリジェンス",
+                "pages": [
+                  "ja/features/brand-research",
+                  "ja/features/web-search"
+                ]
+              },
+              {
+                "group": "セキュリティ & プライバシー",
+                "pages": [
+                  "ja/features/security-overview"
+                ]
+              }
             ]
           },
           {
-            "group": "Everyday Productivity",
-            "pages": [
-              "use-cases/quick-email-replies",
-              "use-cases/ask-anything",
-              "use-cases/teaching-your-preferences"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Integrations",
-        "groups": [
-          {
-            "group": "Platform",
-            "pages": [
-              "integrations/telegram"
+            "tab": "ユースケース",
+            "groups": [
+              {
+                "group": "ブランド案件",
+                "pages": [
+                  "ja/use-cases/email-to-deal",
+                  "ja/use-cases/dm-deals-without-gmail",
+                  "ja/use-cases/getting-paid-on-time"
+                ]
+              },
+              {
+                "group": "スマートスケジューリング",
+                "pages": [
+                  "ja/use-cases/shoot-day-planning",
+                  "ja/use-cases/morning-briefing"
+                ]
+              },
+              {
+                "group": "日常の生産性",
+                "pages": [
+                  "ja/use-cases/quick-email-replies",
+                  "ja/use-cases/ask-anything",
+                  "ja/use-cases/teaching-your-preferences"
+                ]
+              }
             ]
           },
           {
-            "group": "Connected Services (Optional)",
-            "pages": [
-              "integrations/gmail",
-              "integrations/google-calendar",
-              "integrations/notion"
+            "tab": "インテグレーション",
+            "groups": [
+              {
+                "group": "プラットフォーム",
+                "pages": [
+                  "ja/integrations/telegram"
+                ]
+              },
+              {
+                "group": "連携サービス（オプション）",
+                "pages": [
+                  "ja/integrations/gmail",
+                  "ja/integrations/google-calendar",
+                  "ja/integrations/notion"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Tips & Tricks",
-        "groups": [
+          },
           {
-            "group": "Tips & Tricks",
-            "pages": [
-              "tips-tricks/give-it-a-soul",
-              "tips-tricks/notification-preferences"
+            "tab": "ヒント & コツ",
+            "groups": [
+              {
+                "group": "ヒント & コツ",
+                "pages": [
+                  "ja/tips-tricks/give-it-a-soul",
+                  "ja/tips-tricks/notification-preferences"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "groups": [
+          },
           {
-            "group": "Updates",
-            "pages": [
-              "changelog"
+            "tab": "更新履歴",
+            "groups": [
+              {
+                "group": "アップデート",
+                "pages": [
+                  "ja/changelog"
+                ]
+              }
             ]
           }
         ]
@@ -196,6 +521,14 @@
     {
       "source": "/",
       "destination": "/introduction/welcome"
+    },
+    {
+      "source": "/zh",
+      "destination": "/zh/introduction/welcome"
+    },
+    {
+      "source": "/ja",
+      "destination": "/ja/introduction/welcome"
     }
   ],
   "logo": {

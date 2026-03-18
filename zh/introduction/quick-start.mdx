@@ -1,0 +1,131 @@
+---
+title: "快速上手"
+description: "5 分钟内完成配置，启动你的 AI 经纪人。"
+---
+
+## 概览
+
+配置 Kairos 大约需要 5 分钟。你需要创建账户、连接服务、设置 Telegram 机器人，然后就可以开始对话了。
+
+## 第一步：创建账户
+
+1. 访问 [kairos.ac](https://kairos.ac)
+2. 用邮箱或 Google 账号注册
+3. 注册完成后进入控制台，可以在这里配置各项连接
+
+## 第二步：连接你的服务（可选）
+
+进入控制台后，你会看到连接 Google 和 Notion 的选项。可以现在连接，也可以跳过，之后随时在控制台里操作。
+
+<Info>
+  **每项连接都是可选的。** 不连接 Gmail 或 Calendar，大多数功能照样正常使用。你可以随时在控制台里连接、断开或重新连接任何服务。
+</Info>
+
+### Google
+
+连接 Google 后，Kairos 可以监控你的收件箱（识别品牌合作和日程相关邮件）、代你发送回复，并创建日历事件。
+
+1. 点击 **Connect Google**
+2. 用你的 Google 账号登录
+3. 查看授权说明，点击 **Continue**
+
+**Kairos 申请哪些权限？**
+
+| 权限 | 用途 |
+|---|---|
+| 读取邮件（gmail.readonly） | AI 经纪人读取新邮件，识别品牌合作机会、日程事项和重要信息，并通知你。 |
+| 发送邮件（gmail.send） | AI 经纪人为你起草回复。未经你确认，绝不自动发送任何邮件。 |
+| 日历事件（calendar.events） | AI 经纪人创建和编辑日历事件，无法删除事件。 |
+| 基本身份（openid, email） | 识别你的账户。不涉及 Drive、Photos 或其他 Google 服务。 |
+
+<Info>
+  **不想连接 Google？** 完全没问题。你可以把邮件截图或文字转发给经纪人，直接描述品牌合作内容，或者告诉经纪人要安排什么来创建日历事件。
+</Info>
+
+### Notion
+
+连接 Notion 后，你的 AI 经纪人就有了一个整理品牌合作、存储评估报告、追踪回款的专属空间。
+
+1. 点击 **Connect Notion**
+2. 选择你要使用的 Notion 工作区
+3. 授权 Kairos 访问所需页面
+
+第一次评估品牌合作时，经纪人会帮你搭建一个品牌合作数据库。如果你已经有现成的，它也可以适配你的结构。
+
+## 第三步：创建你的 Telegram 机器人
+
+你的 AI 经纪人住在一个由你创建、属于你的 Telegram 机器人里。
+
+<Steps>
+  <Step title="打开 Telegram，找到 @BotFather">
+    在 Telegram 中搜索 `@BotFather`，这是 Telegram 官方的机器人创建工具。
+  </Step>
+  <Step title="创建新机器人">
+    向 BotFather 发送 `/newbot`，按提示为你的机器人选择名称和用户名。
+  </Step>
+  <Step title="复制机器人 token">
+    BotFather 会给你一个 API token，复制它。
+  </Step>
+  <Step title="在 Kairos 中填入 token">
+    将 token 粘贴到 Kairos 控制台，Kairos 会自动验证 token 是否有效。
+  </Step>
+  <Step title="启动你的机器人">
+    点击 **Launch Your Bot**，这将启动你的私有沙盒环境。
+  </Step>
+</Steps>
+
+<Tip>
+  想看操作演示？观看视频：[如何创建机器人并获取 token](https://www.youtube.com/shorts/UHcPXUv8d7s)。
+</Tip>
+
+## 第四步：配对机器人
+
+沙盒环境启动后，需要将你的 Telegram 机器人与 Kairos 账户配对。
+
+<Steps>
+  <Step title="在 Telegram 中打开你的机器人">
+    找到刚创建的机器人，向它发送任意消息。
+  </Step>
+  <Step title="复制配对码">
+    机器人会回复一个**配对码**和你的 **UID**，复制完整消息。
+  </Step>
+  <Step title="在 Kairos 中粘贴">
+    返回 Kairos 控制台，粘贴该消息完成配对。
+  </Step>
+</Steps>
+
+<Tip>
+  观看视频：[如何配对你的机器人](https://www.youtube.com/shorts/gHjVSXQJGvI)。
+</Tip>
+
+## 第五步：开始使用 Kairos
+
+大功告成！打开你的 Telegram 机器人打个招呼吧。以下是一些你可以立刻尝试的功能：
+
+<CardGroup cols={2}>
+  <Card title="描述一个品牌合作" icon="handshake">
+    「我收到了 Nike 的合作邀请，2 条 Instagram Reels，报价 $3,000」
+  </Card>
+  <Card title="创建日历事件" icon="calendar-plus">
+    「帮我安排下周二下午两点在洛杉矶市中心拍摄」
+  </Card>
+  <Card title="起草邮件" icon="pen">
+    「帮我写一封给上周聊过的品牌方的跟进邮件」
+  </Card>
+  <Card title="调查一个品牌" icon="magnifying-glass">
+    「帮我查一下 FitBrand Co，我想知道这家公司靠不靠谱」
+  </Card>
+</CardGroup>
+
+你也可以转发截图、分享邮件内容，或者直接自然地聊天。你的 AI 经纪人能理解上下文，自动判断你需要什么。
+
+## 下一步
+
+<CardGroup cols={2}>
+  <Card title="探索 Kairos 的完整功能" icon="stars" href="/zh/features/brand-deal-overview">
+    查看所有功能详情。
+  </Card>
+  <Card title="浏览使用场景" icon="lightbulb" href="/zh/use-cases/email-to-deal">
+    看看其他创作者是怎么用 Kairos 的。
+  </Card>
+</CardGroup>
