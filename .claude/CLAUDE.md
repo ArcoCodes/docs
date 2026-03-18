@@ -4,7 +4,7 @@
 
 Docs are written based on the source code at https://github.com/ArcoCodes/kairos
 
-**Last synced commit:** `fbb17f3` — `fix: add --body-stdin to send_email.py and --message-ids to list_emails.py (#45)`
+**Last synced commit:** `7802af4` — `enhance: improve evaluation criteria, pricing guidance, and skill quality (#57)`
 
 ### How to update docs
 
