@@ -81,10 +81,16 @@
                 ]
               },
               {
-                "group": "Creator Profile",
+                "group": "Profile",
                 "pages": [
                   "features/profile-setup",
                   "features/profile-refresh"
+                ]
+              },
+              {
+                "group": "Professional Tools",
+                "pages": [
+                  "features/client-management"
                 ]
               },
               {
@@ -134,6 +140,12 @@
                   "use-cases/ask-anything",
                   "use-cases/teaching-your-preferences"
                 ]
+              },
+              {
+                "group": "For Professionals",
+                "pages": [
+                  "use-cases/client-crm-management"
+                ]
               }
             ]
           },
@@ -141,9 +153,10 @@
             "tab": "Integrations",
             "groups": [
               {
-                "group": "Platform",
+                "group": "Messaging Platform",
                 "pages": [
-                  "integrations/telegram"
+                  "integrations/telegram",
+                  "integrations/line"
                 ]
               },
               {
@@ -151,7 +164,8 @@
                 "pages": [
                   "integrations/gmail",
                   "integrations/google-calendar",
-                  "integrations/notion"
+                  "integrations/notion",
+                  "integrations/tiktok"
                 ]
               }
             ]
@@ -241,10 +255,16 @@
                 ]
               },
               {
-                "group": "创作者档案",
+                "group": "档案",
                 "pages": [
                   "zh/features/profile-setup",
                   "zh/features/profile-refresh"
+                ]
+              },
+              {
+                "group": "专业工具",
+                "pages": [
+                  "zh/features/client-management"
                 ]
               },
               {
@@ -294,6 +314,12 @@
                   "zh/use-cases/ask-anything",
                   "zh/use-cases/teaching-your-preferences"
                 ]
+              },
+              {
+                "group": "专业场景",
+                "pages": [
+                  "zh/use-cases/client-crm-management"
+                ]
               }
             ]
           },
@@ -301,9 +327,10 @@
             "tab": "集成",
             "groups": [
               {
-                "group": "平台",
+                "group": "消息平台",
                 "pages": [
-                  "zh/integrations/telegram"
+                  "zh/integrations/telegram",
+                  "zh/integrations/line"
                 ]
               },
               {
@@ -311,7 +338,8 @@
                 "pages": [
                   "zh/integrations/gmail",
                   "zh/integrations/google-calendar",
-                  "zh/integrations/notion"
+                  "zh/integrations/notion",
+                  "zh/integrations/tiktok"
                 ]
               }
             ]
@@ -401,10 +429,17 @@
                 ]
               },
               {
-                "group": "クリエイタープロフィール",
+                "group": "プロフィール",
                 "pages": [
                   "ja/features/profile-setup",
                   "ja/features/profile-refresh"
+                ]
+              },
+              {
+                "group": "プロフェッショナル向けツール",
+                "pages": [
+                  "ja/features/shinkoku",
+                  "ja/features/client-management"
                 ]
               },
               {
@@ -454,6 +489,13 @@
                   "ja/use-cases/ask-anything",
                   "ja/use-cases/teaching-your-preferences"
                 ]
+              },
+              {
+                "group": "プロフェッショナル向け",
+                "pages": [
+                  "ja/use-cases/keigo-email-replies",
+                  "ja/use-cases/client-crm-management"
+                ]
               }
             ]
           },
@@ -461,8 +503,9 @@
             "tab": "インテグレーション",
             "groups": [
               {
-                "group": "プラットフォーム",
+                "group": "メッセージングプラットフォーム",
                 "pages": [
+                  "ja/integrations/line",
                   "ja/integrations/telegram"
                 ]
               },
@@ -471,7 +514,8 @@
                 "pages": [
                   "ja/integrations/gmail",
                   "ja/integrations/google-calendar",
-                  "ja/integrations/notion"
+                  "ja/integrations/notion",
+                  "ja/integrations/tiktok"
                 ]
               }
             ]
