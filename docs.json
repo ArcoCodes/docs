@@ -130,7 +130,8 @@
                 "group": "Smart Scheduling",
                 "pages": [
                   "use-cases/shoot-day-planning",
-                  "use-cases/morning-briefing"
+                  "use-cases/morning-briefing",
+                  "use-cases/travel-planning"
                 ]
               },
               {
@@ -304,7 +305,8 @@
                 "group": "智能排期",
                 "pages": [
                   "zh/use-cases/shoot-day-planning",
-                  "zh/use-cases/morning-briefing"
+                  "zh/use-cases/morning-briefing",
+                  "zh/use-cases/travel-planning"
                 ]
               },
               {
@@ -479,7 +481,8 @@
                 "group": "スマートスケジューリング",
                 "pages": [
                   "ja/use-cases/shoot-day-planning",
-                  "ja/use-cases/morning-briefing"
+                  "ja/use-cases/morning-briefing",
+                  "ja/use-cases/travel-planning"
                 ]
               },
               {
