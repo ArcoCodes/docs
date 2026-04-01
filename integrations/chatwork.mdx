@@ -1,11 +1,11 @@
 ---
 title: "Chatwork"
-description: "Connect Chatwork to monitor mentions and automate team responses."
+description: "Connect Chatwork to monitor mentions and take action on team messages."
 ---
 
 ## Overview
 
-Chatwork integration lets Kairos monitor your mentions across Chatwork rooms. When someone @mentions you, Kairos notifies you and can take actions — draft emails, update Notion, or reply in Chatwork — all with your approval.
+Chatwork integration lets Kairos monitor your mentions across Chatwork rooms. When someone @mentions you, Kairos notifies you and can take actions — draft emails or update Notion — all with your approval.
 
 ## Connecting
 
@@ -18,10 +18,16 @@ Chatwork integration lets Kairos monitor your mentions across Chatwork rooms. Wh
 
 Once connected, Kairos periodically checks your Chatwork rooms for new mentions:
 
-1. A scheduled check runs on a regular interval (cron job)
+1. You set up a periodic check by telling your AI manager (see below)
 2. Kairos scans only rooms with unread mentions — not every room, so nothing unnecessary is read
 3. When a new @mention is found, Kairos sends you a notification with the message content and context
 4. You decide what to do next
+
+To set up the periodic check, send a message like this to your AI manager:
+
+```text copy
+Check my Chatwork mentions every hour and notify me if anyone @mentions me
+```
 
 ## What Kairos can do with mentions
 
@@ -30,9 +36,12 @@ When you receive a mention notification, you can ask Kairos to:
 - **Notify you** with a summary of who mentioned you and what they said
 - **Draft an email reply** based on the mention content
 - **Update a Notion record** — log the conversation, update a project status, or add a task
-- **Reply in Chatwork** directly in the same room
 
 Every action requires your confirmation before Kairos executes it. Nothing is sent or updated without your approval.
+
+<Info>
+  Chatwork integration currently supports reading messages only. Sending messages in Chatwork is not yet supported.
+</Info>
 
 ## Privacy
 
