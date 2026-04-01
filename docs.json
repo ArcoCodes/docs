@@ -166,7 +166,8 @@
                   "integrations/gmail",
                   "integrations/google-calendar",
                   "integrations/notion",
-                  "integrations/tiktok"
+                  "integrations/tiktok",
+                  "integrations/chatwork"
                 ]
               }
             ]
@@ -341,7 +342,8 @@
                   "zh/integrations/gmail",
                   "zh/integrations/google-calendar",
                   "zh/integrations/notion",
-                  "zh/integrations/tiktok"
+                  "zh/integrations/tiktok",
+                  "zh/integrations/chatwork"
                 ]
               }
             ]
@@ -518,7 +520,8 @@
                   "ja/integrations/gmail",
                   "ja/integrations/google-calendar",
                   "ja/integrations/notion",
-                  "ja/integrations/tiktok"
+                  "ja/integrations/tiktok",
+                  "ja/integrations/chatwork"
                 ]
               }
             ]

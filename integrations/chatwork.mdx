@@ -1,0 +1,43 @@
+---
+title: "Chatwork"
+description: "Connect Chatwork to monitor mentions and automate team responses."
+---
+
+## Overview
+
+Chatwork integration lets Kairos monitor your mentions across Chatwork rooms. When someone @mentions you, Kairos notifies you and can take actions — draft emails, update Notion, or reply in Chatwork — all with your approval.
+
+## Connecting
+
+1. Go to your Kairos dashboard
+2. Click **Connect Chatwork**
+3. Authorize Kairos to access your Chatwork account via OAuth
+4. Grant the requested scopes: read your account info and read messages
+
+## How it works
+
+Once connected, Kairos periodically checks your Chatwork rooms for new mentions:
+
+1. A scheduled check runs on a regular interval (cron job)
+2. Kairos scans only rooms with unread mentions — not every room, so nothing unnecessary is read
+3. When a new @mention is found, Kairos sends you a notification with the message content and context
+4. You decide what to do next
+
+## What Kairos can do with mentions
+
+When you receive a mention notification, you can ask Kairos to:
+
+- **Notify you** with a summary of who mentioned you and what they said
+- **Draft an email reply** based on the mention content
+- **Update a Notion record** — log the conversation, update a project status, or add a task
+- **Reply in Chatwork** directly in the same room
+
+Every action requires your confirmation before Kairos executes it. Nothing is sent or updated without your approval.
+
+## Privacy
+
+Kairos only reads messages in rooms where you are mentioned. It does not scan all messages or monitor conversations where you are not tagged. Kairos never posts on your behalf without your explicit approval.
+
+## Disconnecting
+
+Go to your Kairos dashboard and click **Disconnect** next to Chatwork. Kairos will immediately stop monitoring your mentions and remove your Chatwork credentials.
