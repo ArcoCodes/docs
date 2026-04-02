@@ -98,6 +98,10 @@ description: "Frequently asked questions about Kairos."
     Yes. Kairos learns your preferences from how you use it: your brand choices, communication style, pricing approach, and notification preferences. You can also set explicit rules at any time. The more you use it, the less you have to repeat yourself.
   </Accordion>
 
+  <Accordion title="Do I need to set up a scheduled task to check my emails?">
+    No. Gmail notifications are pushed to Kairos automatically via webhook. Every time a new email arrives, Kairos is notified instantly and processes it in real time. You do not need to create a cron job or scheduled task to check your inbox — it's already handled for you.
+  </Accordion>
+
   <Accordion title="Does Kairos support WebSocket or persistent connections?">
     Not at the moment. Kairos does not support WebSocket or other persistent connection services (e.g., Discord bots that require a long-lived connection). For monitoring external services like Chatwork, Kairos uses scheduled tasks (cron jobs) to check periodically. Your AI manager is always available when you message it, and scheduled tasks run reliably in the background.
   </Accordion>
